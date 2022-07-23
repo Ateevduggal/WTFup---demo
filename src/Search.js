@@ -31,8 +31,8 @@ const Search = () => {
             </button>
           </div>
         </div>
-        <div className="row my-5 whole2">
-          <div className="col-md-4 ms-3">
+        <div className="row my-5 ">
+          <div className="col-md-3 ms-5">
             <h1 className="text-white">Filters</h1>
             <h5 className="my-3 text-white">Location</h5>
             <div
@@ -93,8 +93,7 @@ const Search = () => {
               <option value="De">Delhi</option>
             </select>
           </div>
-          <div className="col-md-2"></div>
-          <div className="col-md-6">
+          <div className="col-md-8">
             <List />
           </div>
         </div>
